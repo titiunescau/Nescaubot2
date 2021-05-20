@@ -207,7 +207,7 @@ async function starts() {
 		start('2', 'Falta bem poquinho, bem poquinho msm...')
 	})
 	client.on('open', () => {
-		success('2', 'Conectado parça')
+		success('2', 'Conectado baby🖤')
 	})
 	await client.connect({timeoutMs: 30*1000})
         fs.writeFileSync('./BarBar.json', JSON.stringify(client.base64EncodedAuthInfo(), null, '\t'))
@@ -816,7 +816,7 @@ if (text.includes("placa"))
 			if (!isCmd && isGroup) console.log('\x1b[1;31m~\x1b[1;37m>', '[\x1b[1;31mRECV\x1b[1;37m]', time, color('Message'), 'do leke', color(sender.split('@')[0]), 'in', color(groupName), 'args :', color(args.length))
 			switch(command) {
 	            case 'menu':
-                    putagg = await getBuffer(`https://i.ibb.co/BcJ3bcJ/IMG-20210321-WA0162.jpg`)
+                    putagg = await getBuffer("https://i.ibb.co/BcJ3bcJ/IMG-20210321-WA0162.jpg")
                     client.sendMessage(from, putagg, image, {quoted: mek, caption: help(prefix)})
                     break
 				case 'help1':
